@@ -10,7 +10,7 @@ for (auto i : L4F::range_iterator(begin, end))
 
 Example:
 ```
-std::arra<std::string, 100> studentnames;
+std::array<std::string, 100> studentnames;
 std::cout << "how many students are there? \n";
 int amount;
 std::cin >> amount;
