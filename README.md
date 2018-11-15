@@ -4,12 +4,12 @@ C++ for-each style iterators over a range
 ## use
 
 use it like this: 
-```
+```c++
 for (auto i : L4F::range_iterator(begin, end))
 ```
 
 Example:
-```
+```c++
 std::array<std::string, 100> studentnames;
 std::cout << "how many students are there? \n";
 int amount;
@@ -22,4 +22,4 @@ for (const auto i : L4F::range_iterator(0, amount)) {
 ```
 
 ## Background
-This file was implemented for CLINL (https://clinl.org)
+This file was implemented for [CLINL] (https://clinl.org)
